@@ -1,0 +1,32 @@
+############################
+# Nextflow runtime
+############################
+work/
+.nextflow*
+nextflow.log*
+
+############################
+# Reports & execution output
+############################
+nf_report/
+.command.*
+*.log
+
+############################
+# Data (ignore by default)
+############################
+data/*
+!data/README.md
+
+############################
+# Third-party software & archives
+############################
+Sniffles-*
+*.zip
+
+############################
+# OS / editor noise
+############################
+.DS_Store
+.idea/
+.vscode/
