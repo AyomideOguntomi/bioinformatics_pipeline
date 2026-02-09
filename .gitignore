@@ -23,10 +23,11 @@ data/*
 ############################
 Sniffles-*
 *.zip
+*.png
 
 ############################
 # OS / editor noise
 ############################
 .DS_Store
 .idea/
-.vscode/
+.vscode/code_for_running/
